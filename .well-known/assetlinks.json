@@ -1,8 +1,18 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.sajui80.twa",
-        "sha256_cert_fingerprints": ["3C:91:6E:8F:C0:08:60:71:39:74:DB:41:4E:C6:EF:84:72:D5:23:88:FC:30:AD:89:B9:D2:14:A4:57:5E:A6:03"]
-      }
-    }]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.sajui80.twa",
+      "sha256_cert_fingerprints": ["3C:91:6E:8F:C0:08:60:71:39:74:DB:41:4E:C6:EF:84:72:D5:23:88:FC:30:AD:89:B9:D2:14:A4:57:5E:A6:03"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.sajui80.shuttle2",
+      "sha256_cert_fingerprints": ["C0:66:D3:09:91:12:A0:6F:30:1D:31:3D:44:42:5A:15:7C:AE:62:F3:29:C3:81:AC:30:41:77:6A:C0:B3:6C:A7"]
+    }
+  }
+]
